@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện Gõ Phím - Học Tiếng Anh Cùng Bé</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Luyện Gõ Phím - Học Tiếng Anh Cùng Bé!</h1>
+        <div class="game-info">
+            <p>Điểm: <span id="score">0</span></p>
+            <p>Thời gian: <span id="time">180</span> giây</p>
+        </div>
+        <div class="word-display">
+            <p>Từ cần gõ: <span id="current-word"></span></p>
+            <p>Nghĩa: <span id="word-meaning"></span></p>
+        </div>
+        <div class="input-section">
+            <input type="text" id="word-input" placeholder="Gõ từ ở đây..." autofocus>
+            <button id="speak-btn">Phát âm lại</button>
+        </div>
+        <button id="restart-btn">Bắt đầu lại</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
